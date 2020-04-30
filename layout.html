@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<title>DevMain</title>
+<meta charset="utf-8">
+<!--Stylesheets-->
+<link href="dashboard_style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="header">
+	<h2>Welcome</h2>
+
+</div>
+
+<!--Navigation bar stuff all here in this container-->
+<div class="container">
+				
+	<div class="nav_bar">
+		<a href="layout.html" >HOME</a>
+		<a href="#table2" >ABOUT US</a>
+		<a href="projects.html">OUR PROJECTS</a>
+		<a href="https://github.com" class="icon brands fa-github"><span class="label">GitHub</span></a>
+		<a href="#">Contact Us</a>
+	</div>
+	<script>
+		// When the user scrolls down 20px from the top of the document, slide down the navbar
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
+			document.getElementsByClassName("nav_bar").style.top = "0px";
+		  } else {
+			document.getElementsByClassName("nav_bar").style.top = "650px";
+		  }
+		}
+	</script>
+</div>
+
+
+</html>
