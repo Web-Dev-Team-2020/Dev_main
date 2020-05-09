@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body{
+	margin: 0;
+	padding: 0;
+}
+.bg{
+	position: relative;
+	max-width: 100%;
+	width: 100%;
+}
+h1{
+	font-size: 45px;
+	text-transform: uppercase;
+	padding-left: 100px;
+	float: left;
+}
+.logo{
+	height: 60px;
+	width: 80px;
+	padding-left: 10px;
+	padding-top: 35px;
+	float: left;
+}
+.form{
+	width: 500px;
+    background-color: #dedede;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 2px 2px 20px #070708;
+    opacity: 0.8;
+}
+.f{
+	height: 35px;
+    width: 475px;
+    margin: 10px;
+    background: white;
+    color: #2c2c2c;
+    border-radius: 2px;
+    border: 1px solid #222;
+    font-size: 17px;
+}
+.button{
+	height: 40px;
+    width: 476px;
+    margin: 10px;
+    background: #0B5282;
+    color: #fff;
+    border-radius: 2px;
+    border: 1px solid #069AFE;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px #0B5282;
+}
+.button:hover{
+	background:#069AFE;
+	color: #0B5282;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+
+}
+p{
+	font-size: 30px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+}
