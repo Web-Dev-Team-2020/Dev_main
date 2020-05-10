@@ -10,16 +10,16 @@
 
 @keyframes animate{
     0%,100%{
-        background-image: url('Pictures/Dashboard.png');
+        background-image: url('../Pictures/Dashboard.png');
     }
     25%{
-        background-image: url('Pictures/Dashboard2.jpg');
+        background-image: url('../Pictures/Dashboard2.jpg');
     }
     50%{
-        background-image: url('Pictures/Dashboard3.jpg');
+        background-image: url('../Pictures/Dashboard3.jpg');
     }
     75%{
-        background-image: url('Pictures/Dashboard4.jpg');
+        background-image: url('../Pictures/Dashboard4.jpg');
     }
 }
 
@@ -63,7 +63,7 @@
 
 
 .contact-section{
-    background-image: url('Pictures/contact1.jpg');
+    background-image: url('../Pictures//contact1.jpg');
     height: 100%;
     width: 100%;
     padding: 40px 0; 
