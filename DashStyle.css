@@ -1,0 +1,114 @@
+.containbox{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 28s ease-in infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(Dashboard.png);
+    }
+    25%{
+        background-image: url(Dashboard2.jpg);
+    }
+    50%{
+        background-image: url(Dashboard3.jpg);
+    }
+    75%{
+        background-image: url(Dashboard4.jpg);
+    }
+}
+
+.p{
+    padding: 10px;
+    margin: 0px;
+    font-size: 16px;
+    background-color: wheat;
+
+}
+.nav_bar{
+	z-index: 1;
+	position:fixed;
+	overflow: hidden;
+	display: block;
+	background-color: #333;
+	transition: top .3s;
+}
+.nav_bar a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.nav_bar a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+
+.nav_bar a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.footer{
+ 	background-color: blanchedalmond;
+}
+
+
+.contact-section{
+    background-image: url('contact1.jpg');
+    height: 100%;
+    width: 100%;
+    padding: 40px 0; 
+    background-size: cover;
+    background-position: center ;
+}
+
+.contact-form{
+    max-width: 600px;
+    padding: 0 20px;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.contact-form-text{
+    display: block;
+    padding: 20px 40px;
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    box-sizing: border-box;
+    margin: 16px 0px; 
+    color:whitesmoke;
+    outline: none;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.submit-form-btn{
+    float: right;
+    border: 0px;
+    background: rgb(39, 38, 38);
+    color: snow;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.submit-form-btn:hover{
+    background: skyblue;
+}
