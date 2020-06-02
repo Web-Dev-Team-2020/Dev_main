@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color:  #F0E68C;
+	margin: none;
+}
+
+.header {
+	text-align: center;
+	background-color: #8B0000;
+}
+
+.header-text {
+	background-color: #8B0000;
+	color: black;
+	display: inline-block;
+	padding-top: 9px;
+	height: 50px;
+}
+
+.container {
+	background-color: #F0E68C;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	margin: none;
+}
+
+.first-pro {
+	display: flex;
+	flex-direction: row; 
+	align-items: center;
+	width: 100%;
+	height: 244px;
+	background-color: #F5B041;
+}
+
+.linked {
+	width: 65%;
+	height: 100%;
+	background-size: block;
+	background-position: center center;
+}
+.image {
+	max-width: 100%;
+	max-height: 100%;
+	width: 50%;
+	height: 70%;
+	padding: 40px 30px 30px 45px;
+}
+
+.linked_text {
+	width: 35%;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.second-pro {
+	display: flex;
+	flex-direction: row; 
+	align-items: center;
+	width: 100%;
+	height: 243px;
+	background-color:#e67e22; 
+}
+
+.weather {
+	width: 60%;
+	height: 100%;
+	background-size: block;
+	background-position: center center;
+}
+
+.weather_text {
+	width: 40%;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.third-pro {
+	display: flex;
+	flex-direction: row; 
+	align-items: center;
+	width: 100%;
+	height: 243px;
+	background-color: #F5B041; 
+}
+
+.data {
+	width: 65%;
+	height: 100%;
+	background-size: block;
+	background-position: center center;
+}
+
+.data_text {
+	width: 35%;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer {
+	background-color: #808080;
+	color: black;
+	text-align: center;
+	height:21px;
+}
+
+
